@@ -2,6 +2,11 @@
 
 The purpose of this project is to demonstrate running automated tests against an online factorial calculator
 
+## Test Coverage:
+
+Included are the following tests:
+1. Verify calculated factorial is correct based on integer entered
+2. Verify that the factorial calculator does not accept non-positive integers and non-numeric characters
 ## Requirements:
 
 - NodeJS Version >= 16.13.2
@@ -13,6 +18,7 @@ The purpose of this project is to demonstrate running automated tests against an
 - NodeJS
 - Typescript
 - WebdriverIO
+- Cucumber Framework / Gherkin
 - Allure Reporting
 - rimraf (npm package equivalent to rm -rf)
 - Prettier (for formatting)
