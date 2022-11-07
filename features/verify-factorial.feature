@@ -62,5 +62,4 @@ Feature: Factorial Verification
   Scenario Outline: Verify calculated factorial displayed is correct for any integer
     When I input "58" and click calculate
     Then I verify that the calculated factorial displayed is correct
-
-# TODO: > 992 error
+ 
