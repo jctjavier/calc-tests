@@ -1,4 +1,4 @@
-# tech-challenge-sb-facto
+# calc-tests
 
 The purpose of this project is to demonstrate running automated tests against an online factorial calculator
 
@@ -60,3 +60,6 @@ If you are using nvm to manage node versions. You may use the following command 
 ## To apply prettier changes directly:
 
 `npm run prettier-apply`
+
+## Important Notes:
+1. Some of the scenarios have bugs, and are therefore tagged with `@Bug`
