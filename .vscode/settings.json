@@ -1,0 +1,38 @@
+{
+	"cucumberautocomplete.steps": ["features/step-definitions/steps.ts"],
+	"cucumberautocomplete.syncfeatures": "features/*.feature",
+	"cucumberautocomplete.strictGherkinCompletion": true,
+	"cucumberautocomplete.strictGherkinValidation": false,
+	"cucumberautocomplete.smartSnippets": true,
+	"cucumberautocomplete.stepsInvariants": true,
+	"cucumberautocomplete.skipDocStringsFormat": true,
+	"cucumberautocomplete.formatConfOverride": {
+		"And": 3,
+		"But": "relative"
+	},
+	"cucumberautocomplete.onTypeFormat": true,
+	"editor.quickSuggestions": {
+		"comments": false,
+		"strings": true,
+		"other": true
+	},
+	"editor.tabSize": 2,
+	"cucumberautocomplete.gherkinDefinitionPart": "(Given|When|Then)\\(",
+	"workspace.alwaysShowToggle": true,
+	"workspace.exclude": {
+		"node_modules": true,
+		".gitignore": true,
+		"package-lock.json": true,
+		".npm/_logs": true,
+		".npm": true
+	},
+	"files.exclude": {
+		"node_modules": true,
+		".gitignore": false,
+		"package-lock.json": true,
+		".npm/_logs": true,
+		".npm": true
+	},
+	"files.eol": "\n",
+	"workspace.isHidden": true
+}
